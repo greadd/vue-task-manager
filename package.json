@@ -1,0 +1,33 @@
+{
+  "name": "task-manager",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "start": "node server.js",
+    "deploy": "gh-pages -d dist"
+  },
+  "homepage": "https://greadd.github.io/vue-task-manager",
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "express": "^4.17.1",
+    "gh-pages": "^3.1.0",
+    "materialize-css": "^1.0.0-rc.2",
+    "register-service-worker": "^1.7.1",
+    "serve-static": "^1.14.1",
+    "vue": "^2.6.11",
+    "vue-router": "^3.2.0",
+    "vuex": "^3.4.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.4.0",
+    "@vue/cli-plugin-pwa": "~4.4.0",
+    "@vue/cli-plugin-router": "~4.4.0",
+    "@vue/cli-plugin-vuex": "~4.4.0",
+    "@vue/cli-service": "~4.4.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
